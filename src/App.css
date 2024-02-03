@@ -1,0 +1,106 @@
+/* Global Styles */
+:root {
+  --primary-color: #17a2b8;
+  --dark-color: #343a40;
+  --light-color: #f4f4f4;
+  --danger-color: #dc3545;
+  --success-color: #28a745;
+  --main-color: #e52e80;
+  --nav1-color: #65b2a6;
+  --nav2-color: #c4e3de;
+  --sea-green: #40a798;
+}
+
+.new-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  padding: 0.7rem 2rem;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+  /* border-bottom: solid 1px var(--primary-color); */
+  opacity: 0.9;
+  background: rgb(200, 240, 234);
+  /* background: linear-gradient(
+    90deg,
+    rgba(200, 240, 234, 1) 2%,
+    rgba(64, 167, 152, 1) 89%
+  ); */
+}
+
+.new-navbar ul {
+  display: flex;
+}
+.btn-shape {
+  color: var(--main-color);
+  border: 2px solid var(--main-color);
+  /* background-color: var(--main-color); */
+  margin: 8px;
+
+  /* border-radius: 60px; */
+}
+.next-btn :hover {
+  text-decoration: none;
+}
+.next-btn {
+  font-size: 1.6rem;
+  /* background-color: #65b2a6; */
+  color: black;
+  margin-top: 80px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(205, 241, 236, 1) 100%
+  );
+  padding: 15px;
+  font-family: "Mukta", sans-serif;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+  border-radius: 55px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@800&display=swap");
+.dev-style {
+  border: 2px solid var(--main-color);
+  margin: 8px 8px;
+}
+
+.new-navbar a {
+  color: rgb(0, 0, 0);
+  padding: 0.45rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0 0.25rem;
+  font-size: 1.5rem;
+}
+
+.new-navbar a:hover {
+  color: var(--nav1-color);
+  text-decoration: none;
+}
+.new-navbar a:active {
+  color: var(--main-color);
+}
+
+.new-navbar .welcome span {
+  margin-right: 0.6rem;
+}
+.new-navbar li {
+  margin: 0px 30px;
+}
+.logo-img {
+  height: 80px;
+  width: 80px;
+}
+.text-css {
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: black;
+  font-weight: bold;
+}
+.navbar-bs {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
