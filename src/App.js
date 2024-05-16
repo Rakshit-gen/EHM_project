@@ -11,7 +11,7 @@ function App() {
       <div className='text-3xl font-bold text-blue-700 p-5 px-12'>easemyhood</div>
       <div className='inline p-5 font-bold text-7px'>Location
       <p className='text-1px font-thin'>Pune, Maharastra, India ▼</p></div>
-      <div className='p-5 flex'>
+      <div className='p-4 flex'>
         <form className='flex mx-10'>
         <Dropdown className='bg-blue-700 font-semibold w-36 p-1 text-white rounded-s-xl'>
       <Dropdown.Toggle variant="success" id="dropdown-basic">
