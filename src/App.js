@@ -30,7 +30,7 @@ function App() {
         </form>
       </div>
       <button className='mx-20'><b>Login</b></button>
-      <button className='bg-blue-700 text-white w-24 h-11 my-6 rounded-2xl'>🛒 My Cart</button>
+      <button className='bg-blue-600 text-white w-24 h-11 my-7 rounded-2xl'>🛒 My Cart</button>
       </header>
     </div>
   );
